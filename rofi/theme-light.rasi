@@ -1,11 +1,11 @@
 * {
   background:                  #FFFFFF;
-  background-alt:              #D0D0D0;
-  foreground:                  #0F0F0F;
-  selected:                    #0F0F0F;
-  active:                      #E0E0E0;
-  urgent:                      #DDDDDD;
-  border:                      #D9D9D9;
+  background-alt:              #F0F0F0;
+  foreground:                  #000000;
+  selected:                    #464646;
+  active:                      #FFFFFF;
+  urgent:                      #3C3C3C;
+  border:                      #F0F0F0;
   background-alpha:            rgba(255, 255, 255, 0.75);
 }
 

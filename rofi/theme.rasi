@@ -104,7 +104,7 @@ button {
 }
 button selected {
   background-color:            @selected;
-  text-color:                  @active;
+  text-color:                  @background;
 }
 
 /*****----- Listview -----*****/
@@ -142,17 +142,18 @@ element normal.normal {
 element normal.urgent {
   background-color:            @urgent;
   text-color:                  @foreground;
-  border-color:                @urgent;
+  border-color:                @border;
 }
 element normal.active {
-  background-color:            @active;
+  background-color:            @background-alt;
   text-color:                  @foreground;
-  border-color:                @foreground;
+  border:                      2px;
+  border-color:                @border;
 }
 element selected.normal {
   background-color:            @selected;
-  text-color:                  @active;
-  border-color:                @background;
+  text-color:                  @background;
+  border-color:                @border;
 }
 element selected.urgent {
   background-color:            @foreground;
@@ -162,7 +163,7 @@ element selected.urgent {
 element selected.active {
   background-color:            @foreground;
   text-color:                  @background;
-  border-color:                @background;
+  border-color:                @border;
 }
 element-icon {
   background-color:            transparent;
