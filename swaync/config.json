@@ -1,5 +1,7 @@
 {
   "$schema": "/etc/xdg/swaync/configSchema.json",
+  "control-center-preferred-output": "eDP-1",
+  "notification-window-preferred-output": "eDP-1",
   "positionX": "right",
   "positionY": "top",
   "control-center-margin-top": 2,
